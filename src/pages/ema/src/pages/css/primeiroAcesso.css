@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.body {
+    overflow: hidden;
+    font-family: 'Righteous', 'Times New Roman', Times, serif;
+}
+
+.container {
+    font-family: 'Righteous', 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 562px;
+    height: 900px;
+    left: 650px;
+    top: 30px;
+    background: linear-gradient(130.63deg, #A6BF4B 1.04%, #668C4A 100%);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    align-items: center;
+}
+
+#titulo {
+    position: absolute;
+    width: 284px;
+    height: 35px;
+    left: 150px;
+    top: 15px;
+    font-family: 'Righteous' ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+#cadastro {
+    align-items: center;
+    padding-top: 20px;
+}
+
+#matri {
+    position: absolute;
+    width: 450px;
+    height: 112.12px;
+    left: 60px;
+    top: 147.11px;
+    background: #C4C4C4;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 39px;
+    
+}
+
+#senha {
+    position: absolute;
+    width: 450px;
+    height: 112.12px;
+    left: 60px;
+    top: 287.26px;
+    background: #C4C4C4;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 39px;
+}
+
+#email {
+    position: absolute;
+    width: 450px;
+    height: 112.12px;
+    left: 60px;
+    top: 428.81px;
+    background: #C4C4C4;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 39px;
+}
+
+#cod-turma {
+    position: absolute;
+    width: 424;
+    height: 112.12px;
+    left: 60px;
+    top: 575px;
+    background: #C4C4C4;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 39px;
+}
+
+#btn-entrar {
+    position: absolute;
+    width: 254px;
+    height: 52px;
+    left: 150px;
+    top: 800px;
+    background: linear-gradient(225.94deg, #C4C4C4 23.21%, #848B92 74.59%);
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    font-size: 39px;
+    cursor: pointer;
+    color: rgba(102, 140, 74, 1);
+}
+
+input {
+    text-align: center;
+}
